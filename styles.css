@@ -3,7 +3,7 @@
   --cor-predio2: #66cc99;
   --cor-predio3: #cc6699;
   --cor-predio4: #538cc6;
-  --cor-janela1: black;
+  --cor-janela1: #bb99ff;
   --cor-janela2: #8cd9b3;
   --cor-janela3: #d98cb3;
   --cor-janela4: #8cb3d9;
@@ -195,9 +195,26 @@ body {
 }
 
 .predio-frente3 {
-  background-color: var(--cor-predio1);
   height: 35%;
   width: 10%;
+}
+
+.predio3-parte0 {
+  background-color: var(--cor-predio1);
+  height: 15%;
+  width: 80%;
+}
+
+.predio-tres-janelas {
+  background-color: var(--cor-janela1);
+  height: 80%;
+  width: 25%;
+}
+
+.predio3-parte1 {
+  background-color: var(--cor-predio1);
+  height: 35%;
+  width: 100%;
 }
 
 .predio-frente4 {
