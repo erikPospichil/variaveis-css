@@ -16,11 +16,14 @@ body {
   overflow: hidden;
 }
 
-.fundo-construcoes {
+.fundo-construcoes,
+.frente-construcoes {
   align-items: flex-end;
   display: flex;
   height: 100%;
   justify-content: space-evenly;
+  position: absolute;
+  top: 0;
   width: 100%;
 }
 
@@ -72,4 +75,34 @@ body {
   background-color: var(--cor-predio4);
   height: 58%;
   width: 11%;
+}
+
+.predio-frente1 {
+  height: 60%;
+  width: 10%;
+}
+
+.predio-frente2 {
+  height: 40%;
+  width: 10%;
+}
+
+.predio-frente3 {
+  height: 35%;
+  width: 10%;
+}
+
+.predio-frente4 {
+  height: 45%;
+  width: 8%;
+}
+
+.predio-frente5 {
+  height: 33%;
+  width: 10%;
+}
+
+.predio-frente6 {
+  height: 38%;
+  width: 9%;
 }
