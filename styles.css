@@ -218,11 +218,31 @@ body {
 }
 
 .predio-frente4 {
-  background-color: var(--cor-predio1);
   height: 45%;
   left: 10%;
   position: relative;
   width: 8%;
+}
+
+.predio4-parte1 {
+  border-left: 8vw solid var(--cor-predio1);
+  border-top: 5vh solid transparent;
+}
+
+.predio4-parte2 {
+  background-color: var(--cor-predio1);
+  display: flex;
+  flex-wrap: wrap;
+  height: 89%;
+  width: 100%;
+}
+
+.predio-quatro-janelas {
+  background-color: var(--cor-janela1);
+  border-radius: 50%;
+  height: 10%;
+  margin: 10%;
+  width: 30%;
 }
 
 .predio-frente5 {
