@@ -10,15 +10,18 @@ body {
 }
 
 .fundo-construcoes {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
-  flex-direction: column;
   height: 100%;
+  justify-content: space-evenly;
   width: 100%;
 }
 
 .primeiro-predio {
+  align-items: center;
   --cor-predio1: #aa80ff;
+  display: flex;
+  flex-direction: column;
   height: 70%;
   width: 10%;
 }
@@ -45,4 +48,19 @@ body {
   background-color: var(--cor-predio1);
   height: 70%;
   width: 100%;
+}
+
+.segundo-predio {
+  height: 50%;
+  width: 10%;
+}
+
+.terceiro-predio {
+  height: 55%;
+  width: 10%;
+}
+
+.quarto-predio {
+  height: 58%;
+  width: 11%;
 }
