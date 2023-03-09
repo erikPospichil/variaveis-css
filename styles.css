@@ -8,3 +8,36 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+.fundo-construcoes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.primeiro-predio {
+  height: 70%;
+  width: 10%;
+}
+
+.primeira-secao {
+  height: 10%;
+  width: 70%;
+}
+
+.segunda-secao {
+  height: 10%;
+  width: 80%;
+}
+
+.terceira-secao {
+  height: 10%;
+  width: 90%;
+}
+
+.quarta-secao {
+  height: 70%;
+  width: 100%;
+}
