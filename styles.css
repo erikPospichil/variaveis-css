@@ -246,7 +246,19 @@ body {
 }
 
 .predio-frente5 {
-  background-color: var(--cor-predio2);
+  background: repeating-linear-gradient(
+      var(--cor-predio2) 0%,
+      var(--cor-predio2) 5%,
+      transparent 5%,
+      transparent 10%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      var(--cor-predio2) 0%,
+      var(--cor-predio2) 12%,
+      var(--cor-janela2) 12%,
+      var(--cor-janela2) 44%
+    );
   height: 33%;
   position: relative;
   right: 10%;
