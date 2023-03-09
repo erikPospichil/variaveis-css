@@ -1,3 +1,10 @@
+:root {
+  --cor-predio1: #aa80ff;
+  --cor-predio2: #66cc99;
+  --cor-predio3: #cc6699;
+  --cor-predio4: #538cc6;
+}
+
 * {
   border: 1px solid black;
   box-sizing: border-box;
@@ -19,7 +26,6 @@ body {
 
 .primeiro-predio {
   align-items: center;
-  --cor-predio1: #aa80ff;
   display: flex;
   flex-direction: column;
   height: 70%;
@@ -51,16 +57,19 @@ body {
 }
 
 .segundo-predio {
+  background-color: var(--cor-predio2);
   height: 50%;
   width: 10%;
 }
 
 .terceiro-predio {
+  background-color: var(--cor-predio3);
   height: 55%;
   width: 10%;
 }
 
 .quarto-predio {
+  background-color: var(--cor-predio4);
   height: 58%;
   width: 11%;
 }
