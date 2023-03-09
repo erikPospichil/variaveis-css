@@ -171,9 +171,27 @@ body {
 }
 
 .predio-frente2 {
-  background-color: var(--cor-predio3);
   height: 40%;
   width: 10%;
+}
+
+.predio2-parte1 {
+  border-bottom: 10vh solid var(--cor-predio3);
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  width: 100%;
+}
+
+.predio2-parte2 {
+  background-color: var(--cor-predio3);
+  height: 75%;
+  width: 100%;
+}
+
+.predio-dois-janelas {
+  background-color: var(--cor-janela3);
+  height: 100%;
+  width: 22%;
 }
 
 .predio-frente3 {
