@@ -3,6 +3,7 @@
   --cor-predio2: #66cc99;
   --cor-predio3: #cc6699;
   --cor-predio4: #538cc6;
+  --cor-janela1: black;
 }
 
 * {
@@ -36,26 +37,25 @@ body {
   width: 10%;
 }
 
-.primeira-secao {
-  background-color: var(--cor-predio1);
+.primeiro-predio-janela {
+  background: linear-gradient(var(--cor-predio1), var(--cor-janela1));
   height: 10%;
+}
+
+.primeira-secao {
   width: 70%;
 }
 
 .segunda-secao {
-  background-color: var(--cor-predio1);
-  height: 10%;
   width: 80%;
 }
 
 .terceira-secao {
-  background-color: var(--cor-predio1);
-  height: 10%;
   width: 90%;
 }
 
 .quarta-secao {
-  background-color: var(--cor-predio1);
+  background: linear-gradient(var(--cor-predio1) 50%, var(--cor-janela1));
   height: 70%;
   width: 100%;
 }
