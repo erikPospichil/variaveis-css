@@ -6,6 +6,7 @@
   --cor-janela1: black;
   --cor-janela2: #8cd9b3;
   --cor-janela3: #d98cb3;
+  --cor-janela4: #8cb3d9;
 }
 
 * {
@@ -30,11 +31,20 @@ body {
   width: 100%;
 }
 
-/* Prédios de trás: */
-.primeiro-predio {
+.envolve-construcoes {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.envolve-janelas {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Prédios de trás: */
+.primeiro-predio {
   height: 70%;
   width: 10%;
 }
@@ -96,9 +106,32 @@ body {
 }
 
 .quarto-predio {
-  background-color: var(--cor-predio4);
   height: 58%;
   width: 11%;
+}
+
+.primeira-secao4 {
+  background-color: var(--cor-predio4);
+  height: 10%;
+  width: 3%;
+}
+
+.segunda-secao4 {
+  background-color: var(--cor-predio4);
+  height: 5%;
+  width: 80%;
+}
+
+.terceira-secao4 {
+  background-color: var(--cor-predio4);
+  height: 85%;
+  width: 100%;
+}
+
+.quarto-predio-janelas {
+  background-color: var(--cor-janela4);
+  width: 18%;
+  height: 90%;
 }
 
 /* Prédios da frente: */
