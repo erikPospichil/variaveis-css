@@ -4,6 +4,7 @@
   --cor-predio3: #cc6699;
   --cor-predio4: #538cc6;
   --cor-janela1: black;
+  --cor-janela2: #8cd9b3;
 }
 
 * {
@@ -61,9 +62,25 @@ body {
 }
 
 .segundo-predio {
-  background-color: var(--cor-predio2);
   height: 50%;
   width: 10%;
+}
+
+.primeira-secao2 {
+  border-bottom: 5vh solid var(--cor-predio2);
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
+}
+
+.segunda-secao2 {
+  background: repeating-linear-gradient(
+    var(--cor-predio2) 0%,
+    var(--cor-predio2) 6%,
+    var(--cor-janela2) 6%,
+    var(--cor-janela2) 9%
+  );
+  height: 100%;
+  width: 100%;
 }
 
 .terceiro-predio {
