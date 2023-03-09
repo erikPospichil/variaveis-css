@@ -27,6 +27,7 @@ body {
   width: 100%;
 }
 
+/* Prédios de trás: */
 .primeiro-predio {
   align-items: center;
   display: flex;
@@ -77,32 +78,43 @@ body {
   width: 11%;
 }
 
+/* Prédios da frente: */
 .predio-frente1 {
+  background-color: var(--cor-predio4);
   height: 60%;
   width: 10%;
 }
 
 .predio-frente2 {
+  background-color: var(--cor-predio3);
   height: 40%;
   width: 10%;
 }
 
 .predio-frente3 {
+  background-color: var(--cor-predio1);
   height: 35%;
   width: 10%;
 }
 
 .predio-frente4 {
+  background-color: var(--cor-predio1);
   height: 45%;
+  left: 10%;
+  position: relative;
   width: 8%;
 }
 
 .predio-frente5 {
+  background-color: var(--cor-predio2);
   height: 33%;
+  position: relative;
+  right: 10%;
   width: 10%;
 }
 
 .predio-frente6 {
+  background-color: var(--cor-predio3);
   height: 38%;
   width: 9%;
 }
