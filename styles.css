@@ -291,3 +291,25 @@ body {
   height: 38%;
   width: 9%;
 }
+
+@media (max-width: 1000px) {
+  :root {
+    --cor-predio1: #000;
+    --cor-predio2: #000;
+    --cor-predio3: #000;
+    --cor-predio4: #000;
+    --cor-janela1: #777;
+    --cor-janela2: #777;
+    --cor-janela3: #777;
+    --cor-janela4: #777;
+  }
+  .ceu {
+    background: radial-gradient(
+      closest-corner circle at 15% 15%,
+      #ccc,
+      #ccc 20%,
+      #445 21%,
+      #223 100%
+    );
+  }
+}
