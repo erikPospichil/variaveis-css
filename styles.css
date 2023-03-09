@@ -5,6 +5,7 @@
   --cor-predio4: #538cc6;
   --cor-janela1: black;
   --cor-janela2: #8cd9b3;
+  --cor-janela3: #d98cb3;
 }
 
 * {
@@ -84,7 +85,12 @@ body {
 }
 
 .terceiro-predio {
-  background-color: var(--cor-predio3);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--cor-predio3),
+    var(--cor-predio3),
+    var(--cor-janela3) 15%
+  );
   height: 55%;
   width: 10%;
 }
