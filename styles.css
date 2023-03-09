@@ -136,9 +136,38 @@ body {
 
 /* Prédios da frente: */
 .predio-frente1 {
-  background-color: var(--cor-predio4);
   height: 60%;
   width: 10%;
+}
+
+.predio1-parte1 {
+  border-bottom: 7vh solid var(--cor-predio4);
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+}
+
+.predio1-parte2 {
+  background-color: var(--cor-predio4);
+  height: 10%;
+  width: 60%;
+}
+
+.predio1-parte3 {
+  background: repeating-linear-gradient(
+      90deg,
+      var(--cor-predio4) 0%,
+      var(--cor-predio4) 10%,
+      transparent 10%,
+      transparent 15%
+    ),
+    repeating-linear-gradient(
+      var(--cor-predio4) 0%,
+      var(--cor-predio4) 10%,
+      var(--cor-janela4) 10%,
+      var(--cor-janela4) 90%
+    );
+  height: 80%;
+  width: 100%;
 }
 
 .predio-frente2 {
